@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Title: Premier League Winner Predictions
 
-You can use the [editor on GitHub](https://github.com/danieltamkin4/cs152-proposal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Project Description
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I will focus on training neural networks (NNs) for the purpose of predicting Premier League soccer games. Two teams that are playing against each other will be looked at, and the NN will predict the winner of the game (none if it is a draw). A new dataset will need to be created, either manually or using an automated process.
+The trained NN will be “deployed” as an application by allowing users to input any two teams in the league and testing it against real world results. If all goes well, then an extension of this work will include training the NN to work with international teams, tournaments, and other leagues. Another extension of this work could be to predict the score of a game, rather than the winner. 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Project Goals
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/danieltamkin4/cs152-proposal/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Create a dataset of relevant statistics in Premier League games
+2. Train a NN that is able to predict a winner when given two teams.
+3. Explore methods that will account for injuries and personnel changes.
